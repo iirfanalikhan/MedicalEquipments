@@ -1,0 +1,85 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../svg/background.svg);
+    background-size: cover;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+.vectorback
+{
+    background-image: url(../svg/vector.svg);
+    height:100vh;
+    z-index: 300;
+    background-repeat: no-repeat;
+}
+  
+  /* On screens that are 600px wide or less */
+  @media screen and (max-width:1100px) {
+    .vectorback{
+        background-image: url(../svg/vector600.svg);
+        width: 100vw;
+        height:100vh;
+        z-index: 300;
+        background-repeat: no-repeat;
+      }
+    #logo
+    {
+      width: 20vw;
+    }
+   
+  }
+  
+  /* On screens that is 400px or less */
+  @media screen and (max-width: 500px) {
+    .vectorback{
+        background-image: url("../svg/vector300.svg");
+        height:100vh;
+        z-index: 300;
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+    #slogan 
+    {
+      font-size: 12px;
+    }
+
+  }
+  
+  .links a
+  {
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Stylish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  #slogan
+  {
+    background-image:url(../svg/slogan.svg);
+    position: absolute;
+width: 689px;
+height: 147px;
+left: 57px;
+top: 138px;
+
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+z-index: 303;
+  }
+    
